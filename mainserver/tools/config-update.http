@@ -1,0 +1,10 @@
+POST http://localhost:8080/monitor
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+X-Github-Event: push
+
+{"commits": [{"modified": ["a-bootiful-client.properties"] }]}
+
+###
+
