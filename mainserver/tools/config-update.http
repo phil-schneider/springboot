@@ -1,10 +1,23 @@
-POST http://openshift-quickstarts-scp-spring-boot.a3c1.starter-us-west-1.openshiftapps.com/monitor
+POST http://openshift-quickstarts-scp-spring-boot.a3c1.starter-us-west-1.openshiftapps.com/refresh
+
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
-X-Github-Event: push
+#X-Github-Event: push
 
-{"commits": [{"modified": ["a-bootiful-client.properties"] }]}
+#{"commits": [{"modified": ["a-bootiful-client.properties"] }]}
 
 ###
 
+
+
+GET http://localhost:8080/rest
+
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+#X-Github-Event: push
+
+#{"commits": [{"modified": ["a-bootiful-client.properties"] }]}
+
+###
