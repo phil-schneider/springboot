@@ -1,4 +1,4 @@
-POST http://localhost:8080/monitor
+POST http://openshift-quickstarts-scp-spring-boot.a3c1.starter-us-west-1.openshiftapps.com/monitor
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
