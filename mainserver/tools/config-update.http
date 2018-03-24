@@ -10,7 +10,9 @@ Content-Type: application/json
 ###
 
 
-GET http://localhost:8080/rest
+#GET http://localhost:8080/rest
+GET http://openshift-quickstarts-scp-spring-boot.a3c1.starter-us-west-1.openshiftapps.com/rest
+
 
 Accept: */*
 Cache-Control: no-cache
